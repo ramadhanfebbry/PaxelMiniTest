@@ -1,0 +1,69 @@
+PODS:
+  - Alamofire (4.8.0)
+  - AlamofireImage (3.5.0):
+    - Alamofire (~> 4.8)
+  - Cosmos (17.0.0)
+  - DisplaySwitcher (1.2)
+  - ImageSlideshow (1.7.0):
+    - ImageSlideshow/Core (= 1.7.0)
+  - ImageSlideshow/Alamofire (1.7.0):
+    - AlamofireImage (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.7.0)
+  - Realm (3.12.0):
+    - Realm/Headers (= 3.12.0)
+  - Realm/Headers (3.12.0)
+  - RealmSwift (3.12.0):
+    - Realm (= 3.12.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (4.2.0)
+  - UIScrollView-InfiniteScroll (1.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - Cosmos
+  - DisplaySwitcher (from `https://github.com/Yalantis/DisplaySwitcher.git`)
+  - ImageSlideshow
+  - ImageSlideshow/Alamofire
+  - RealmSwift
+  - SVProgressHUD
+  - SwiftyJSON
+  - UIScrollView-InfiniteScroll (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Cosmos
+    - ImageSlideshow
+    - Realm
+    - RealmSwift
+    - SVProgressHUD
+    - SwiftyJSON
+    - UIScrollView-InfiniteScroll
+
+EXTERNAL SOURCES:
+  DisplaySwitcher:
+    :git: https://github.com/Yalantis/DisplaySwitcher.git
+
+CHECKOUT OPTIONS:
+  DisplaySwitcher:
+    :commit: 8895f597bdc0c2e93a22659814205d5718a59c6f
+    :git: https://github.com/Yalantis/DisplaySwitcher.git
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  AlamofireImage: 1aea346f4dda2f6c67622fa5a89fcbb80d79cc16
+  Cosmos: 309e489f21ffc91a1eeecfebef7f817cd2fcfba6
+  DisplaySwitcher: a9ee0b5c7821cd8d12e39783ada99399f6d927a0
+  ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
+  Realm: cdaef23c4ddb36ab1ddffed23f5a7f3332fc5585
+  RealmSwift: 5576324033f0aa5ef1e0a839a3da2281dff47a7f
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  UIScrollView-InfiniteScroll: c132d6d5851daff229ab4a1060ccf70a05a051c9
+
+PODFILE CHECKSUM: bebe66e12f24b626c7e2ee8e2e504fab8c882958
+
+COCOAPODS: 1.5.3
